@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/messages")
 public class MessageResource {
 
+		String user = "jao";
+		String password = "senha";
+
 	   @GetMapping("/simpleMessageWelcome")
 	   public String simpleMessageWelcome() {
 	     return "BEM VINDO A AULA DE MICROSSERVIÇO USANDO SPRING BOOT !!!";
