@@ -1,4 +1,4 @@
-package spring_boot_1.com.exemple.demo;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
