@@ -1,6 +1,5 @@
-package com.example.user.controller;
+package api;
 
-import com.example.user.exception.CPFException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,8 +15,8 @@ public class UserController {
             if(id > 0 && id < 100){
                 return "You have entered valid ID";
             }
-        } catch (CPFException e){
-            new CPFException().handelerCpf(e);
+        } catch (api.CPFException.CPFException e){
+            new api.CPFException.CPFException().handelerCpf(e);
         }
         String msg = "You have entered invalid ID";
         return msg;

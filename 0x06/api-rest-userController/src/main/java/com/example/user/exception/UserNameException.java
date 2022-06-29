@@ -1,4 +1,4 @@
-package com.example.user.exception;
+package api;
 
 public class UserNameException extends RuntimeException{
 }
