@@ -2,6 +2,7 @@ package api;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -11,6 +12,11 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest {
+
+    @BeforeEach
+    public static void set(){
+        Calculator calculator = new Calculator();
+    }
 
     @BeforeAll
     public static void setup(){
