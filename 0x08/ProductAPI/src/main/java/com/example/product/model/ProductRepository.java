@@ -1,4 +1,4 @@
-package com.example.product.model;
+package ProductAPI.src.main.java.com.example.product.model;
 
 import org.springframework.stereotype.Repository;
 

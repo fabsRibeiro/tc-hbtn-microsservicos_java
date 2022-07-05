@@ -1,7 +1,7 @@
-package com.example.product.controller;
+package ProductAPI.src.main.java.com.example.product.controller;
 
-import com.example.product.model.Product;
-import com.example.product.model.ProductRepository;
+import ProductAPI.src.main.java.com.example.product.model.Product;
+import ProductAPI.src.main.java.com.example.product.model.ProductRepository;
 import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

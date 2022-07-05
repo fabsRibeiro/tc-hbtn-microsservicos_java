@@ -1,4 +1,4 @@
-package com.example.product.config;
+package ProductAPI.src.main.java.com.example.product.config;
 
 
 import org.springframework.context.annotation.Bean;
